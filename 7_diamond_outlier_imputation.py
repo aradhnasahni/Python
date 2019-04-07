@@ -1,27 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Aug 11 18:47:19 2018
-
-@author: chase.kusterer
-
-Working Directory:
-/Users/chase.kusterer/Desktop/PyCourse
 
 Purpose:
     This code is meant to treat outliers in the diamond dataset
 """
 
-"""
-Prof. Chase:
-    As you move through this code, try to notice how much code has been
-    recycled from the missing value imputation script:
-    'diamond_missing_value_imputation.py'
-    
-    This is one of the many benefits of taking a programmatic approach
-    to data science.
-
-"""
 
 
 ###############################################################################
@@ -35,13 +19,7 @@ file ='diamonds_imputed.xlsx'
 diamonds = pd.read_excel(file)
 
 
-"""
-Prof. Chase:
-    Notice how we have used the same object name as before for our
-    base dataset. Be careful when doing this as it can cause unintended
-    bugs in your code.
 
-"""
 
 
 ###############################################################################
